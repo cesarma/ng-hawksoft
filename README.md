@@ -1,4 +1,4 @@
-he application was developed on angular 8, .net core, EF and Sql server.
+The application was developed on angular 8, .net core, EF and Sql server.
 Steps:
 We need to run dotnet ef update
 in order to create and populate the database with mock data
