@@ -9,7 +9,7 @@ Run
 dot net run to compile and extract all the npm (packages)
 
 
-I expect time setting up my environment as well as compiling and setting my account on git hub, I did not finbsihed the part of update (form and wrap the service)
+I spend time setting up my environment as well as compiling and setting my account on git hub, I did not finbsihed the part of update (form and wrap the service)
 
 all the webapis can be tested through swagger
 
