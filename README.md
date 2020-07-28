@@ -22,3 +22,6 @@ https://github.com/cesarma/ng-hawksoft
 WebApi-testing
 
 http://localhost:3298/swagger/index.html
+
+App
+http://localhost:3298
