@@ -1,0 +1,44 @@
+<h1 id="tableLabel">HawkSoft Contact List</h1>
+
+<p>fetching contacts from the server.</p>
+
+<p *ngIf="!contactsHawksoft"><em>Loading...</em></p>
+
+
+
+
+<div class="text-left">
+  <a href="#" routerLink="/contact/create" class="btn  btn-primary text-right">Add Contact</a>
+ </div>
+  <div class="table">
+    <table id="myTable" datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="table table-styling">
+      <thead>
+        <tr class="table-primary">
+          <th>Id</th>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>City</th>
+          <th>State</th>
+          <th>ContactdID</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let contactsHawksoft of contactsHawksoft">
+          <td>{{ contactsHawksoft.contactId }}</td>
+          <td>{{ contactsHawksoft.firstName }}</td>
+          <td>{{ contactsHawksoft.lastName }}</td>
+          <td>{{ contactsHawksoft.email }}</td>
+          <td>{{ contactsHawksoft.address1 }}</td>
+          <td>{{ contactsHawksoft.city }}</td>
+          <td>{{ contactsHawksoft.state }}</td>
+          <td>{{ contactsHawksoft.usersHawksoftUserId }}</td>
+          <td><a href="#" [routerLink]="['/contact/', contactsHawksoft.contactId, 'edit']" class="btn btn-primary">Edit</a></td>
+          <td><button type="button" (click)="deletePost(contactsHawksoft.contactId)" class="btn btn-danger">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

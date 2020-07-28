@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HawkSoftContactListAngular", "HawkSoftContactListAngular\HawkSoftContactListAngular.csproj", "{47D30B25-4B52-452E-BE00-79FD10A810C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkSoftContacts", "HawkSoftContacts\HawkSoftContacts.csproj", "{A2AB97EF-C31F-4386-9C06-B37BCC7AD0B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkSoftDomain", "HawSoftDomain\HawkSoftDomain.csproj", "{3353FB1D-F4DD-4BF9-B4C1-178154738FC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47D30B25-4B52-452E-BE00-79FD10A810C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D30B25-4B52-452E-BE00-79FD10A810C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D30B25-4B52-452E-BE00-79FD10A810C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D30B25-4B52-452E-BE00-79FD10A810C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AB97EF-C31F-4386-9C06-B37BCC7AD0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AB97EF-C31F-4386-9C06-B37BCC7AD0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AB97EF-C31F-4386-9C06-B37BCC7AD0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AB97EF-C31F-4386-9C06-B37BCC7AD0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3353FB1D-F4DD-4BF9-B4C1-178154738FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3353FB1D-F4DD-4BF9-B4C1-178154738FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3353FB1D-F4DD-4BF9-B4C1-178154738FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3353FB1D-F4DD-4BF9-B4C1-178154738FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08D1A16A-0D5B-4010-82EC-B36E8392BB5D}
+	EndGlobalSection
+EndGlobal

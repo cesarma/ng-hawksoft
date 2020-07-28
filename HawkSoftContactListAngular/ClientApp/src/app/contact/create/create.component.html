@@ -1,0 +1,74 @@
+<div class="container">
+    <h1>Create New Contact</h1>
+  
+    <a href="#" routerLink="/fetch-data/" class="btn btn-primary">Back</a>
+        
+    <form [formGroup]="form" (ngSubmit)="submit()">
+
+      <div class="form-group">
+        <label for="FirstName">First Name:</label>
+        <input formControlName="firstName"
+               id="FirstName"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="LastName">LastName:</label>
+        <input formControlName="lastName"
+               id="LastName"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="Email">Email:</label>
+        <input formControlName="email"
+               id="Email"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="Address1">Address1:</label>
+        <input formControlName="address1"
+               id="Address1"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="Address2">Address2:</label>
+        <input formControlName="address2"
+               id="Address2"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="City">City:</label>
+        <input formControlName="city"
+               id="City"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="State">State:</label>
+        <input formControlName="state"
+               id="State"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="Zip">Zip:</label>
+        <input formControlName="zip"
+               id="Zip"
+               type="text"
+               class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="UsersHawksoftUserId">Belong to user ID:</label>
+        <input formControlName="usersHawksoftUserId"
+               id="UsersHawksoftUserId"
+               type="text"
+               class="form-control" value="1">
+      </div>
+   
+      <button class="btn btn-primary" type="submit" >Submit</button>
+    </form>
+</div>
