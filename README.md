@@ -1,7 +1,7 @@
 ![alt text](https://github.com/cesarma/ng-hawksoft/blob/master/HawkSoftContactListAngular/Capture01.PNG?raw=true)
 
 <b>NG-HawkSoft</b> <br/>
-The application was developed on angular 8, .net core, EF and Sql server.
+The application was developed on angular 8, .net core, EF(Migrations) and Sql server.
 <br/>
 <b>Steps:</b><br/>
 We need to run <br/>
@@ -16,7 +16,7 @@ I spent time setting up my environment as well as compiling and setting my accou
 <br/>
 all the webapis can be tested through swagger
 <br/>
-Regarding with the question to escalate the app, there are different approaches Ny recommendation use MSMQ,Mrabbit (it is not supported on .net core)  or ServiceBus. in order to dosen't lose data.
+Regarding with the question to escalate the app, there are different approaches My recommendation use MSMQ,Mrabbit (MSMQ  is not supported on .net core so far)  or ServiceBus. in order to dosen't lose data.
 <br/>
 The pagination work better if we use EF pagination the data, thought the webapi
 
@@ -24,6 +24,7 @@ The pagination work better if we use EF pagination the data, thought the webapi
 <br/>
 Regarding with the users I have created a table but I did not work on the log in because is not part of the scope but every contact has an id fk that need to be filled by default is 1,
 Identity Service is a good approach
+EF we are using migrations .net core dosent support  sql proj so far other options is use DBup
 
 GITHUB -NG-Hawksoft<br/>
 
