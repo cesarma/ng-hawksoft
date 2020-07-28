@@ -1,6 +1,6 @@
 ![alt text](https://github.com/cesarma/ng-hawksoft/blob/master/HawkSoftContactListAngular/Capture01.PNG?raw=true)
 
-NG-HawkSoft <br/>
+<b>NG-HawkSoft</b> <br/>
 The application was developed on angular 8, .net core, EF and Sql server.
 <br/>
 <b>Steps:</b><br/>
