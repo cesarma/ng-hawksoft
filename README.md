@@ -16,7 +16,7 @@ I spent time setting up my environment as well as compiling and setting my accou
 <br/>
 all the webapis can be tested through swagger
 <br/>
-Regarding with the question to escalate the app, there are different approaches My recommendation use MSMQ,Mrabbit (MSMQ  is not supported on .net core so far)  or ServiceBus. in order to dosen't lose data.
+Regarding with the question to escalate the app, there are differents approaches, My recommendation use MSMQ,Mrabbit (MSMQ  is not supported on .net core so far)  or ServiceBus. in order to dosen't lose data.
 <br/>
 The pagination work better if we use EF pagination the data, thought the webapi
 
