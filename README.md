@@ -2,14 +2,17 @@
 
 NG-HawkSoft <br/>
 The application was developed on angular 8, .net core, EF and Sql server.
-Steps:<br/>
-We need to run dotnet ef update
-in order to create and populate the database with mock data
-Run
-dot net run to compile and extract all the npm (packages)
 <br/>
+<b>Steps:</b><br/>
+We need to run <br/>
+dotnet ef update<br/>
+in order to create and populate the database with mock data
+<br/>
+Run<br/>
+dot net run 
+<br/>to compile and extract all the npm (packages)
 
-I expect time setting up my environment as well as compiling and setting my account on git hub, I did not finbsihed the part of update (form and wrap the service)
+I expect time setting up my environment as well as compiling and setting my account on git hub, I did not finish the part of update (form and wrap the service)
 <br/>
 all the webapis can be tested through swagger
 <br/>
