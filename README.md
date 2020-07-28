@@ -20,6 +20,11 @@ Regarding with the question to escalate the app, there are different approaches 
 <br/>
 The pagination work better if we use EF pagination the data, thought the webapi
 
+<b>Notes</b>
+<br/>
+Regarding with the users I have created a table but I did not work on the log in because is not part of the scope but every contact has an id fk that need to be filled by default is 1,
+Identity Service is a good approach
+
 GITHUB -NG-Hawksoft<br/>
 
 https://github.com/cesarma/ng-hawksoft
