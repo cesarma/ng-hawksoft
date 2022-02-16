@@ -3,7 +3,7 @@
 <b>NG-HawkSoft</b> <br/>
 The application was developed on angular 8, .net core, EF(Migrations) and Sql server.
 I have deployed the app using AzureDev Ops
-<a href='https://cesarma.azurewebsites.net/' target="_blank">https://cesarma.azurewebsites.net/</a>
+<a href='https://cesarma.azurewebsites.net/' target='_blank'>https://cesarma.azurewebsites.net/</a>
 <br/>
 <b>Steps:</b><br/>
 We need to run <br/>
