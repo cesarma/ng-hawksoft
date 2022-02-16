@@ -16,15 +16,6 @@ variables:
 
 steps:
 
-- task: NodeTool@0
-  displayName: "Install Node.js"
-  inputs:
-    versionSpec: 14.x
-- task: Npm@1
-  displayName: "Install Angular cli"
-  inputs:
-      command: "custom"
-      customCommand: "install -g @angular/cli"
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
