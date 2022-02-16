@@ -19,6 +19,7 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
+    workingDir: '-g @angular/cli'
 - task: NuGetToolInstaller@1
 
 
