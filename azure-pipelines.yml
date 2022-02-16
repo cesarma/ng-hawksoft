@@ -17,9 +17,11 @@ variables:
 
 steps:
 - task: Npm@1
+  displayName: "Install Angular cli"
   inputs:
-    command: 'install'
-    workingDir: '-g @angular/cli'
+      command: "custom"
+      customCommand: "install -g @angular/cli"
+
 - task: NuGetToolInstaller@1
 
 
